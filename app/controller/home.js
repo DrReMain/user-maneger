@@ -5,6 +5,7 @@ module.exports = app => {
         async index() {
             const data = {
                 title: 'caonima'
+
             };
             await this.ctx.render('home.tpl', data)
         }
