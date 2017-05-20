@@ -14,5 +14,12 @@ module.exports = appInfo => {
         }
     };
 
+    config.development = {
+        watchDirs: [],
+        ignoreDirs: [],
+        fastReady: true,
+        reloadOnDebug: true,
+    };
+
     return config;
 };

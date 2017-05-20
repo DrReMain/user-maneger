@@ -7,3 +7,8 @@ exports.nunjucks = {
     enable: true,
     package: 'egg-view-nunjucks'
 };
+
+exports.development = {
+    enable: true,
+    package: 'egg-development',
+};
