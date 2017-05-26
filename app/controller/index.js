@@ -2,8 +2,8 @@
 
 module.exports = app => {
     return class HomeController extends app.Controller {
-        async home() {
-            await this.ctx.render('home.tpl')
+        async index() {
+            await this.ctx.render('index.tpl', {title: "DrReMain's blog"})
         }
     }
 };
