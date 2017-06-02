@@ -12,3 +12,18 @@ exports.development = {
     enable: true,
     package: 'egg-development',
 };
+
+exports.sessionRedis = {
+    enable: true,
+    package: 'egg-session-redis',
+};
+
+exports.redis = {
+    enable: true,
+    package: 'egg-redis',
+};
+
+exports.mysql = {
+    enable: true,
+    package: 'egg-mysql',
+};
